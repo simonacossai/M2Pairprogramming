@@ -17,16 +17,16 @@ h2{
         height:300px;
     }
     .first{
-        background-color: teal;
+        background-color: yellow;
         height: 100px;
     }
     .second{
-        background-color: tomato;
+        background-color: rgb(255, 255, 122);
         height: 100px;
 
     }
     .third{
-        background-color: violet;
+        background-color: rgb(247, 247, 167);
         height: 100px;
 
     }
@@ -54,7 +54,28 @@ h2.blog-post-title{
     .blog-card{
         width: 300px!important;
     }
+.colors{
+    padding: 0!important;
+    margin: 0 auto;
+}
+.colors div{
+    width:300px;
+}
     .blog-card-image{
         width:300px!important;
+    }
+    h2.blog-post-title{
+        display: block;
+        font-weight: 700;
+        margin-right:10px;
+    }
+    .post-heading{
+        display: block;
+        text-align: center;
+    }
+    .blog-main{
+        text-align: center;
+        justify-content: center;
+        margin: 0 auto;
     }
 }

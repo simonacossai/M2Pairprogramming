@@ -3,7 +3,33 @@ h2{
     font-size:50px;
 }
 
+#firstColumn{
+    background-color: blue;
+    height:300px;
+    }
+    
+    #secondColumn{
+        background-color: green;
+        height:300px;
+    }
+    #thirdColumn{
+        background-color: yellow;
+        height:300px;
+    }
+    .first{
+        background-color: teal;
+        height: 100px;
+    }
+    .second{
+        background-color: tomato;
+        height: 100px;
 
+    }
+    .third{
+        background-color: violet;
+        height: 100px;
+
+    }
 h2.blog-post-title{
     display: flex;
     flex-direction: row;
